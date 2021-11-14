@@ -96,7 +96,7 @@ void msDeepBlur::knobs(Knob_Callback f)
 	Tooltip(f, "Remove samples with an alpha value equal or smaller than the specified threshold. Depending on the image content, this will make this node and subsequent Deep nodes render faster. A threshold above 0 might slightly change the resulting image.");
 
 	Float_knob(f, &_threshold, "threshold", "threshold");
-    Tooltip(f, "If \"drop transparent samples\" is activated, any samples with an alpha value equal or smaller than this threshold will be removed.");
+	Tooltip(f, "If \"drop transparent samples\" is activated, any samples with an alpha value equal or smaller than this threshold will be removed.");
 	SetRange(f, 0, 1);
 }
 
