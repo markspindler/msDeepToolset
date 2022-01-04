@@ -9,3 +9,5 @@ msDeepKeymix has the same functionality as a regular KeyMix node, but works with
 
 ### msDeepReformat
 msDeepReformat works like Nuke's regular DeepReformat, but uses a cubic filter.
+
+You can download compiled binaries of the indivdual plugins for different versions of Nuke from [my website](http://www.mark-spindler.com/tools.html "Tools on mark-spindler.com") or [Nukepedia](http://www.nukepedia.com/plugins/deep "Deep Plugins on nukepedia.com").
